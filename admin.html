@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="admin">
+<h1>لوحة التحكم</h1>
+
+<input type="text" id="title" placeholder="عنوان الفيديو">
+<input type="text" id="youtube" placeholder="YouTube Embed Link">
+<input type="number" id="views" placeholder="عدد المشاهدات">
+<input type="text" id="thumb" placeholder="رابط الصورة المصغرة">
+<textarea id="desc" placeholder="الوصف"></textarea>
+
+<button onclick="addVideo()">إضافة فيديو</button>
+
+<hr>
+
+<input type="number" id="subsInput" placeholder="عدد المشتركين">
+<button onclick="updateSubs()">تحديث المشتركين</button>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
